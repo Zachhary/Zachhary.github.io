@@ -48,4 +48,4 @@ If this policy ever changes, the updated version will be posted at the same URL 
 
 Contact
 
-Questions about this policy? Email: zachharycodes@gmail.com
+Questions about this policy or need support? Email: zachharycodes@gmail.com
