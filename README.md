@@ -1,51 +1,65 @@
-Privacy Policy
+# Privacy Policy — Cozy Weather
 
-Effective Date: May 27, 2026
+_Last updated: June 3, 2026_
 
-Thank you for using this app. Your privacy is important. This policy explains, in plain language, what information the app handles and how it's used.
+Cozy Weather ("the app", "we", "our") is designed with privacy in mind. This policy explains what information the app uses and how it's handled.
 
-TL;DR
+## Summary
 
-This app does not collect, store, or sell your personal information. It does not have user accounts, analytics, ads, or third-party trackers. The only data it touches is what's needed to show you the weather.
+- We do not have servers and do not collect, sell, or share your personal information.
+- Location access is **optional**. The app is fully functional without it.
+- Your saved cities are stored only on your device.
+- Weather data is provided by Apple's WeatherKit. Radar imagery is provided by Iowa Environmental Mesonet (NEXRAD).
 
-Information the App Uses
+## Information the App Uses
 
-Location
+### Location (optional)
+If you grant the app permission to access your location, your approximate device location is used **only** to:
+- Show weather conditions and forecasts for your current location.
+- Display a localized map and radar view.
 
-If you grant permission, the app reads your device's current location once per session in order to show weather for where you are. Your location coordinates are sent to Apple's WeatherKit service so the appropriate forecast can be returned. The coordinates are not stored by this app and are not sent to any third party other than Apple.
+Your location is sent to Apple's WeatherKit service to retrieve weather data. It is **never** sent to us or to any third party we control, and it is **not** stored by the app between sessions. If you deny or revoke location permission, the app continues to work normally — you can add any cities you want manually using the search feature.
 
-You can revoke location access at any time in Settings → Privacy & Security → Location Services.
+### Saved Cities
+Cities you add via the search feature are stored locally on your device using the system's standard preferences storage (UserDefaults). This data:
+- Stays on your device.
+- Is not transmitted to us.
+- Is removed when you uninstall the app.
 
-Saved Cities
+### Place Search
+When you search for a city to add, your search text is sent to Apple's MapKit service to return matching places. We do not log, retain, or share your search queries.
 
-When you add a city using the "+" button, that city's name and coordinates are saved on your device only, using the system's local storage (UserDefaults). This information never leaves your device and is not synced, uploaded, or shared.
+## Third-Party Services
 
-Search Queries
+The app relies on the following services to function:
 
-When you search for a city to add, the text you type is sent to Apple's MapKit service to return matching results. This app does not log or store your searches.
+- **Apple WeatherKit** — provides weather forecasts. Apple's privacy practices apply to data sent through this service. See https://www.apple.com/legal/privacy/.
+- **Apple MapKit** — provides place search and map tiles. Apple's privacy practices apply.
+- **Iowa Environmental Mesonet (NEXRAD)** — provides U.S. precipitation radar tiles. When the radar view is displayed, your map's tile coordinates (not your personal location) are requested from their public tile service.
 
-What the App Does Not Do
+## Data We Do Not Collect
 
-• No accounts, sign-ups, or user profiles.
-• No analytics, telemetry, or crash reporting services.
-• No advertising or ad networks.
-• No third-party SDKs or trackers.
-• No selling, sharing, or licensing of any data.
+Cozy Weather does **not** collect, store, or transmit:
+- Your name, email address, phone number, or any account information.
+- Advertising identifiers.
+- Analytics or usage tracking.
+- Crash reports beyond Apple's standard, opt-in App Store diagnostics.
 
-Third-Party Services
+## Children's Privacy
 
-This app uses Apple's WeatherKit, MapKit, and Core Location frameworks. Data sent to these services is handled under Apple's privacy practices, available at apple.com/privacy.
+The app does not knowingly collect any personal information from anyone, including children under 13.
 
-Weather data is provided by Apple Weather and partners. See weatherkit.apple.com/legal-attribution.html for details.
+## Your Choices
 
-Children's Privacy
+- **Location:** You can grant, deny, or revoke location access at any time in iOS Settings → Privacy & Security → Location Services → Cozy Weather. The app remains fully functional in any of these states.
+- **Saved cities:** You can remove saved cities from within the app. Uninstalling the app removes all locally stored data.
 
-This app is not directed at children under 13 and does not knowingly collect any information from them.
+## Changes to This Policy
 
-Changes to This Policy
+If this policy changes, the updated version will be made available at the same location with a new "Last updated" date.
 
-If this policy ever changes, the updated version will be posted at the same URL with a new effective date.
+## Contact
 
-Contact
+If you have questions about this privacy policy, contact:
 
-Questions about this policy or need support? Email: zachharycodes@gmail.com
+zachharycodes@gmail.com
