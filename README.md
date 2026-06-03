@@ -9,7 +9,7 @@ Cozy Weather ("the app", "we", "our") is designed with privacy in mind. This pol
 - We do not have servers and do not collect, sell, or share your personal information.
 - Location access is **optional**. The app is fully functional without it.
 - Your saved cities are stored only on your device.
-- Weather data is provided by Apple's WeatherKit. Radar imagery is provided by Iowa Environmental Mesonet (NEXRAD).
+- Weather data is provided by Apple's WeatherKit. Radar imagery is provided by NOAA / the U.S. National Weather Service, with Iowa Environmental Mesonet (NEXRAD) used as a fallback when NOAA tiles are unavailable.
 
 ## Information the App Uses
 
@@ -35,7 +35,8 @@ The app relies on the following services to function:
 
 - **Apple WeatherKit** — provides weather forecasts. Apple's privacy practices apply to data sent through this service. See https://www.apple.com/legal/privacy/.
 - **Apple MapKit** — provides place search and map tiles. Apple's privacy practices apply.
-- **Iowa Environmental Mesonet (NEXRAD)** — provides U.S. precipitation radar tiles. When the radar view is displayed, your map's tile coordinates (not your personal location) are requested from their public tile service.
+- **NOAA / National Weather Service** — provides the primary U.S. base reflectivity radar mosaic. When the radar view is displayed, your map's tile coordinates (not your personal location) are requested from NOAA's public tile service.
+- **Iowa Environmental Mesonet (NEXRAD)** — used as a fallback radar source if NOAA tiles are unavailable. Tile coordinate requests work the same way as for NOAA.
 
 ## Data We Do Not Collect
 
@@ -62,4 +63,4 @@ If this policy changes, the updated version will be made available at the same l
 
 If you have questions about this privacy policy, contact:
 
-zachharycodes@gmail.com
+zachharypsn@gmail.com
