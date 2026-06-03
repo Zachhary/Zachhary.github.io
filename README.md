@@ -63,4 +63,4 @@ If this policy changes, the updated version will be made available at the same l
 
 If you have questions about this privacy policy, contact:
 
-zachharypsn@gmail.com
+zachharycodes@gmail.com
